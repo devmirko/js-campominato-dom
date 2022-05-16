@@ -12,17 +12,32 @@ body {
 /* Header */
 
 header {
+    width: 60%;
+    margin: 0 auto;
     display: flex;
-    height: 75px;
+    height: 70px;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* sezione tasti */
+section h1{
+    font-weight: 700;
+}
 
 
 #sezione_difficolta {
-    font-size: 18px;
+    width: 15%;
+    font-size: 28px;
+    text-align: center;
    
+}
+
+button{
+    width: 100px;
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -39,7 +54,7 @@ header {
 
 /* Main */
 main {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 140px);
     min-height: 280px;
     background-color: yellow;
     display: flex;
@@ -50,8 +65,8 @@ main {
 #grid {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
     position: relative;
 }
@@ -111,10 +126,18 @@ main {
     display: none;
 }
 
+#game_end{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   font-weight: 800;
+}
+
 
 /* Footer */
 footer {
-    height: 30px;
+    height: 70px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
