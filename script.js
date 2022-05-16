@@ -37,7 +37,7 @@ function inizioGame() {
     // funzione difficolta
     userDifficuly(difficulty);
 
-    // toglie il blocco alla griglia se e presente
+    // rimuovi classe blocco griglia
     grid.classList.remove("disattiva");
    
 
